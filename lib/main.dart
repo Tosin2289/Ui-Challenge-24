@@ -27,3 +27,15 @@ class HomePage extends StatelessWidget {
     return Scaffold();
   }
 }
+
+class BoxModel {
+  final image;
+  final String name;
+  final String prize;
+  final String weight;
+  BoxModel(
+      {required this.image,
+      required this.name,
+      required this.prize,
+      required this.weight});
+}
